@@ -1,8 +1,8 @@
 import pytest
-from domain.models.drink import Drink, Temperature
-from domain.models.money import Money
-from domain.models.slot import Slot
-from domain.models.vending_machine import VendingMachine
+from vending_machine.domain.models.drink import Drink, Temperature
+from vending_machine.domain.models.money import Money
+from vending_machine.domain.models.slot import Slot
+from vending_machine.domain.models.vending_machine import VendingMachine
 
 
 @pytest.fixture(scope="function")

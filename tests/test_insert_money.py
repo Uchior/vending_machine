@@ -1,6 +1,5 @@
-import pytest
-from domain.models.money import Money
-from app.usecases.user.insert_money import InsertMoneyCase
+from vending_machine.domain.models.money import Money
+from vending_machine.app.usecases.user.insert_money import InsertMoneyCase
 
 
 def test_insert_money_success(vending_machine_with_no_money):

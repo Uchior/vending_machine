@@ -1,5 +1,5 @@
-from domain.models.vending_machine import VendingMachine
-from domain.models.slot import Slot
+from vending_machine.domain.models.vending_machine import VendingMachine
+from vending_machine.domain.models.slot import Slot
 
 
 class RefillSlotCase:
