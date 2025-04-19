@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from domain.models.drink import Drink
 
+
 @dataclass
 class Slot:
     slot_number: str
@@ -8,7 +9,6 @@ class Slot:
     stock: int
 
     def is_available(self) -> bool:
-        """Check if the slot is available."""
         return self.stock > 0
 
     def dispense(self) -> Drink:
@@ -16,3 +16,8 @@ class Slot:
             raise ValueError("Out of stock")
         self.stock -= 1
         return self.drink
+
+    def refill(self, quantity: int) -> None:
+        if quantity <= 0:
+            raise ValueError("Quantity must be greater than 0")
+        self.stock += quantity
