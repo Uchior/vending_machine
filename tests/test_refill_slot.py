@@ -1,6 +1,5 @@
 import pytest
-from domain.models.money import Money
-from app.usecases.operator.refill_slot import RefillSlotCase
+from vending_machine.app.usecases.operator.refill_slot import RefillSlotCase
 
 
 def test_refill_slot_success(vending_machine_with_no_money):

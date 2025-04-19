@@ -1,6 +1,6 @@
 import pytest
-from domain.models.money import Money
-from app.usecases.user.refund_money import RefundMoneyCase
+from vending_machine.domain.models.money import Money
+from vending_machine.app.usecases.user.refund_money import RefundMoneyCase
 
 
 def test_refund_money_success(vending_machine_with_inserted_money):

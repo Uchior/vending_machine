@@ -1,7 +1,5 @@
 import pytest
-from domain.models.money import Money
-from app.usecases.user.purchase_drink import PurchaseDrinkCase
-from app.usecases.user.insert_money import InsertMoneyCase
+from vending_machine.app.usecases.user.purchase_drink import PurchaseDrinkCase
 
 
 def test_purchase_drink_success(vending_machine_with_inserted_money):
