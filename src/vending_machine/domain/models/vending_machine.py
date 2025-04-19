@@ -1,6 +1,6 @@
 from typing import Dict
-from domain.models.slot import Slot
-from domain.models.money import Money
+from vending_machine.domain.models.slot import Slot
+from vending_machine.domain.models.money import Money
 
 
 class VendingMachine:

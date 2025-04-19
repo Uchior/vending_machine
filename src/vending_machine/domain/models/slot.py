@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from domain.models.drink import Drink
+from vending_machine.domain.models.drink import Drink
 
 
 @dataclass

@@ -1,5 +1,5 @@
-from domain.models.vending_machine import VendingMachine
-from domain.models.money import Money
+from vending_machine.domain.models.vending_machine import VendingMachine
+from vending_machine.domain.models.money import Money
 
 
 class InsertMoneyCase:
