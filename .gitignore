@@ -2,5 +2,5 @@
 vending_machine.iml
 .idea/
 pyvenv.cfg
-.vnenv
+.venv
 */.pytest_cache
