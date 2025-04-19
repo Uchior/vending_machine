@@ -1,4 +1,3 @@
-import pytest
 from vending_machine.domain.models.money import Money
 from vending_machine.app.usecases.user.insert_money import InsertMoneyCase
 
