@@ -21,3 +21,9 @@ class Slot:
         if quantity <= 0:
             raise ValueError("Quantity must be greater than 0")
         self.stock += quantity
+
+    def replace_drink(self, new_drink: Drink, new_stock: int) -> None:
+        if new_stock < 1:
+            raise ValueError("New stock must be at least 1")
+        self.drink = new_drink
+        self.stock = new_stock
